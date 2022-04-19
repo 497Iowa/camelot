@@ -27,7 +27,7 @@ const Navbar = () => {
 			<nav className="navbar is-fixed-top" role="navigation" aria-label="main navigation">
 				<div className="navbar-brand">
 					<span className="navbar-item">
-					<img className="camelot-logo-image" src="/img/logo.png" width="62" height="112"/>
+					<img className="camelot-logo-image" src="img/logo.png" width="62" height="112"/>
 					<h1 className="camelot-logo">CAMELOT</h1>
 					</span>
 

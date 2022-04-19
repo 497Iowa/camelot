@@ -42,7 +42,7 @@ export default function App() {
 
   const switchImage = () => {
     document.querySelector('#test-canvas').removeAttribute('data-caman-id');
-    eval(`loadImage("../iowa.jpg")`);
+    eval(`loadImage("./iowa.jpg")`);
   }
 
   function runCode(code) {

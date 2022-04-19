@@ -19,10 +19,10 @@ const BuiltInImageDropdown = props => {
   let items = [];
   for (var i = 0; i < images.length; i++) {
     let url = images[i].url;
-    items.push( <a onClick={() => {setDropdown(false); props.onChange(`../${url}`); }} className="dropdown-item" key={i + "a"}>
+    items.push( <a onClick={() => {setDropdown(false); props.onChange(`./${url}`); }} className="dropdown-item" key={i + "a"}>
       <div className="is-flex">
       <figure className="image is-48x48 mr-1">
-        <img className="thumbnail" alt="thumbnail" src={`../${images[i].url}`}/>
+        <img className="thumbnail" alt="thumbnail" src={`./${images[i].url}`}/>
       </figure>
       <div className="is-align-items-center is-flex">
       <p className="is-size-6">{images[i].name}</p>

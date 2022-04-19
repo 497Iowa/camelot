@@ -8,7 +8,7 @@ const ImageHarness = props => {
   const [switching, setSwitching] = useState(false);
 
   useEffect(() => {
-    switchImage("../wp.jpg", true);
+    switchImage("./wp.jpg", true);
   }, []);
 
   const switchImage = (url, disableSwitching = false) => {

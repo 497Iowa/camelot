@@ -5,7 +5,7 @@ export default function ImagePreview(props) {
   const [img, setImg] = useState("");
 
   useEffect(() => {
-    jimp.read("./wp.jpg").then(image => {
+    jimp.read("wp.jpg").then(image => {
 
       //resize image using "contain" mode
       image.contain(100, 150);
